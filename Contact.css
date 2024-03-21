@@ -1,0 +1,46 @@
+.contact {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url("https://media.istockphoto.com/id/1168945108/photo/close-up-image-of-male-hands-using-smartphone-with-icon-telephone-email-mobile-phone-and.jpg?s=612x612&w=is&k=20&c=OIhSjuMZCqKs2ph_zBAWuHf6XDn-DxIGYLrsTZRZqrw=");
+  background-size: cover;
+  background-position: center;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInfo span {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.contactInfo label {
+  margin-bottom: 5px;
+}
+
+.contactInfo input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
